@@ -42,8 +42,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ##############
 
 # Define que es un componente y al crearlo que elementos lo forman:
-  ## -Un componente de Angular es un elemento que consta de: un archivo que será nuestra plantilla (app.component. html), 
-  ## -que es nuestro HTML que se mostrará en la interfaz de usuario, en la vista o, en términos más simples, lo que verá en la página.
+   -Un componente de Angular es un elemento que consta de: un archivo que será nuestra plantilla (app.component. html), 
+   -que es nuestro HTML que se mostrará en la interfaz de usuario, en la vista o, en términos más simples, lo que verá en la página.
   
 # Define que es un módulo y que función tiene el patrón de diseño decorator:
   ## -Un Modulo: 

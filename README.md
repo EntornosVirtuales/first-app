@@ -30,3 +30,39 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 "# clase-01" 
 "# class-01" 
 "# first-app" 
+
+##############
+####
+#################
+####
+####################
+####
+#################
+####
+##############
+
+Define que es un componente y al crearlo que elementos lo forman:
+  Un componente de Angular es un elemento que consta de: un archivo que será nuestra plantilla (app.component. html), 
+  que es nuestro HTML que se mostrará en la interfaz de usuario, en la vista o, en términos más simples, lo que verá en la página.
+  
+Define que es un módulo y que función tiene el patrón de diseño decorator:
+  Un Modulo: 
+    Un módulo angular recopila un conjunto de artefactos angulares, como componentes, directivas, canalizaciones y servicios, que pertenecen al mismo módulo.
+    Esto quiere decir que es una agrupación lógica de lo que podríamos llamar un área funcional de nuestra aplicación. 
+    Además, un módulo Angular define dependencias con otros módulos, es decir. qué otros módulos importar y qué componentes, directivas o conductos exporta.
+  funcion del patron de diseño decorativo:
+    Un decorador es un patrón de diseño estructural que le permite agregar dinámicamente un nuevo comportamiento a un objeto colocando el nuevo comportamiento 
+    en un objeto envolvente especial.
+  
+Menciona y describe los elementos importantes de un @NgModule:
+  declarations: 
+    Componentes, directivas y conductos pertenecientes a este NgModule.
+  exports: 
+    Un subconjunto de declaraciones que están visibles y disponibles en otras plantillas de componentes de NgModule.
+  imports: 
+    Las plantillas de componentes declaradas en este NgModule requieren otros módulos cuyas clases exportadas son obligatorias.
+  providers: 
+    Este NgModule proporciona constructores de servicios en la colección de servicios globales; se puede acceder a ellos en todas las partes de la aplicación.
+    (También puede especificar proveedores a nivel de componente, lo que generalmente se prefiere).
+  bootstrap: 
+    La vista principal de la aplicación, conocida como componente raíz, que aloja todas las demás vistas de la aplicación.
